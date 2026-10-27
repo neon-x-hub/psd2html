@@ -23,16 +23,16 @@ I decided to open-source it in case anyone else with a designer-developer workfl
 
 ## Features
 
-- ** 100% Deterministic**: No heuristic guessing, computer vision, or black-box AI. Photoshop layer bounds and naming tokens dictate the structure.
-- ** Fluid & Absolute Positioning**: Mix pixel dimensions (`w-abs`, `h-abs`) and responsive parent-relative percentages (`w-rel`, `h-rel`, `left-rel`, `top-rel`) effortlessly.
-- ** The `#` Container Convention**: A child shape named `#` automatically sets the parent group's bounds, background color, and coordinate space.
-- ** Vector Style Extraction**: Automatically extracts solid RGB fills (`background-color`) and border strokes from Photoshop vector rectangle layers.
-- ** Semantic HTML5**: Automatically maps layer names like `Navbar`, `Sidebar`, `Header`, or `Main` to `<nav>`, `<aside>`, `<header>`, and `<main>` tags (or explicitly specify with `tag-*`).
-- ** Dual Canvas Modes**:
+- **100% Deterministic**: No heuristic guessing, computer vision, or black-box AI. Photoshop layer bounds and naming tokens dictate the structure.
+- **Fluid & Absolute Positioning**: Mix pixel dimensions (`w-abs`, `h-abs`) and responsive parent-relative percentages (`w-rel`, `h-rel`, `left-rel`, `top-rel`) effortlessly.
+- **The `#` Container Convention**: A child shape named `#` automatically sets the parent group's bounds, background color, and coordinate space.
+- **Vector Style Extraction**: Automatically extracts solid RGB fills (`background-color`) and border strokes from Photoshop vector rectangle layers.
+- **Semantic HTML5**: Automatically maps layer names like `Navbar`, `Sidebar`, `Header`, or `Main` to `<nav>`, `<aside>`, `<header>`, and `<main>` tags (or explicitly specify with `tag-*`).
+- **Dual Canvas Modes**:
   - `viewport` (default): Fluid, responsive width (`100%`) matching browser viewports.
   - `fixed`: Pixel-perfect canvas locked to the exact PSD artboard dimensions.
-- ** Multiple Exporters**: Generates standalone HTML previews, clean external stylesheets (`styles.css`), and structured JSON trees.
-- ** CLI & Python API**: Usable as a command-line tool or importable directly into Python build pipelines.
+- **Multiple Exporters**: Generates standalone HTML previews, clean external stylesheets (`styles.css`), and structured JSON trees.
+- **CLI & Python API**: Usable as a command-line tool or importable directly into Python build pipelines.
 
 ---
 
